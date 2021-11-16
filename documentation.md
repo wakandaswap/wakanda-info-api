@@ -1,18 +1,18 @@
 # Documentation
 
-All PantherSwap pairs consist of two different tokens. BNB is not a native currency in PantherSwap, and is represented only by WBNB in the pairs. 
+All WakandaSwap pairs consist of two different tokens. BNB is not a native currency in WakandaSwap, and is represented only by WBNB in the pairs. 
 
-The canonical WBNB address used by the PantherSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
+The canonical WBNB address used by the WakandaSwap interface is `0xbb4CdB9CBd36B01bD1cBaEBF2De08d9173bc095c`.
 
 Results are cached for 2 minutes (or 120 seconds).
 
-## [`/summary`](https://api.pantherswap.info/api/summary)
+## [`/summary`](https://api.wakandaswap.info/api/summary)
 
-Returns data for the top ~1000 PantherSwap pairs, sorted by reserves. 
+Returns data for the top ~1000 WakandaSwap pairs, sorted by reserves. 
 
 ### Request
 
-`GET https://api.pantherswap.info/api/summary`
+`GET https://api.wakandaswap.info/api/summary`
 
 ### Response
 
@@ -32,13 +32,13 @@ Returns data for the top ~1000 PantherSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/tokens`](https://api.pantherswap.info/api/tokens)
+## [`/tokens`](https://api.wakandaswap.info/api/tokens)
 
-Returns the tokens in the top ~1000 pairs on PantherSwap, sorted by reserves.
+Returns the tokens in the top ~1000 pairs on WakandaSwap, sorted by reserves.
 
 ### Request
 
-`GET https://api.pantherswap.info/api/tokens`
+`GET https://api.wakandaswap.info/api/tokens`
 
 ### Response
 
@@ -57,13 +57,13 @@ Returns the tokens in the top ~1000 pairs on PantherSwap, sorted by reserves.
 }
 ```
 
-## [`/tokens/0x...`](https://api.pantherswap.info/api/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7)
+## [`/tokens/0x...`](https://api.wakandaswap.info/api/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7)
 
 Returns the token information, based on address.
 
 ### Request
 
-`GET https://api.pantherswap.info/api/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7`
+`GET https://api.wakandaswap.info/api/tokens/0x1f546ad641b56b86fd9dceac473d1c7a357276b7`
 
 ### Response
 
@@ -79,13 +79,13 @@ Returns the token information, based on address.
 }
 ```
 
-## [`/pairs`](https://api.pantherswap.info/api/pairs)
+## [`/pairs`](https://api.wakandaswap.info/api/pairs)
 
-Returns data for the top ~1000 PantherSwap pairs, sorted by reserves.
+Returns data for the top ~1000 WakandaSwap pairs, sorted by reserves.
 
 ### Request
 
-`GET https://api.pantherswap.info/api/pairs`
+`GET https://api.wakandaswap.info/api/pairs`
 
 ### Response
 
@@ -112,13 +112,13 @@ Returns data for the top ~1000 PantherSwap pairs, sorted by reserves.
 }
 ```
 
-## [`/stats`](https://api.pantherswap.info/api/stats)
+## [`/stats`](https://api.wakandaswap.info/api/stats)
 
-Returns stats of PantherSwap exchange. 
+Returns stats of WakandaSwap exchange. 
 
 ### Request
 
-`GET https://api.pantherswap.info/api/stats`
+`GET https://api.wakandaswap.info/api/stats`
 
 ### Response
 

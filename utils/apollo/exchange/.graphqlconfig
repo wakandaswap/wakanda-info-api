@@ -1,10 +1,10 @@
 {
-  "name": "PantherSwap Exchange",
+  "name": "WakandaSwap Exchange",
   "schemaPath": "schema.graphql",
   "extensions": {
     "endpoints": {
-      "PantherSwap Exchange": {
-        "url": "https://api.bscgraph.org/subgraphs/name/pantherswap/exchange",
+      "WakandaSwap Exchange": {
+        "url": "https://api.bscgraph.org/subgraphs/name/wakandaswap/exchange",
         "headers": {
           "user-agent": "JS GraphQL"
         },

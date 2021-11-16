@@ -1,11 +1,11 @@
-# PantherSwap API
+# WakandaSwap API
 
-The PantherSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface PantherSwap liquidity
+The WakandaSwap API is a set of endpoints used by market aggregators (e.g. coinmarketcap.com) to surface WakandaSwap liquidity
 and volume information. All information is fetched from the underlying subgraphs.
 
 ## Documentation
 
-The documentation of the endpoints for PantherSwap can be found [here](documentation.md).
+The documentation of the endpoints for WakandaSwap can be found [here](documentation.md).
 
 ## Development
 
