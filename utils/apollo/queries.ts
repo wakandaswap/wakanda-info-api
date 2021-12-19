@@ -29,7 +29,6 @@ export const TOP_PAIRS = gql`
     symbol
     derivedBNB
     derivedUSD
-    tradeVolumeUSD
   }
 
   query TopPairs($limit: Int!, $excludeTokenIds: [String!]!) {
