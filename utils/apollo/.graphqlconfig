@@ -4,7 +4,7 @@
   "extensions": {
     "endpoints": {
       "WakandaSwap Exchange Lite": {
-        "url": "https://api.thegraph.com/subgraphs/name/wakandaswap/exchange-lite-v2",
+        "url": "https://api.thegraph.com/subgraphs/name/wakandaswap/exchange-lite-v3",
         "headers": {
           "user-agent": "JS GraphQL"
         },
